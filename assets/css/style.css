@@ -467,13 +467,13 @@ img {
     padding-bottom: 4rem;
 }
 
-.swiper-buttom-prev::after,
-.swiper-buttom-next::after{
+.swiper-button-prev::after,
+.swiper-button-next::after{
     content: '';
 }
 
-.swiper-buttom-prev,
-.swiper-buttom-next{
+.swiper-button-prev,
+.swiper-button-next{
     top: initial;
     bottom: 0;
     width: 32px;
@@ -485,11 +485,11 @@ img {
     color: var(--title-color);
 }
 
-.swiper-buttom-prev{
+.swiper-button-prev{
     left: calc(50% - 3rem);
 }
 
-.swiper-buttom-next{
+.swiper-button-next{
     right: calc(50% - 3rem);
 }
 
